@@ -27,7 +27,7 @@ input{width:210px}
 #notice{flex:none;font-size:12px;margin:0;padding:5px 14px;color:#a7c6b8}
 #notice.error{color:#ffc1b9;background:#472924}
 main{display:flex;flex:1;min-height:0;min-width:0;position:relative;overflow:hidden}
-#canvas{flex:1;min-height:0;min-width:0;overflow:auto;overscroll-behavior:contain;overflow-anchor:none;background:radial-gradient(#354051 1px,transparent 1px);background-size:20px 20px;position:relative}
+#canvas{flex:1;min-height:0;min-width:0;overflow:auto;overscroll-behavior:contain;overflow-anchor:none;background:radial-gradient(#354051 1px,transparent 1px);background-size:20px 20px;position:relative;cursor:grab;user-select:none}
 #canvas.is-panning,#canvas.is-panning .node{cursor:grabbing;user-select:none}
 #empty{padding:25px;color:#bcc9da}
 #empty h2{color:#e3d1a2}
